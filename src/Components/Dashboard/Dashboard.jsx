@@ -62,6 +62,7 @@ const Dashboard = () => {
     ];
     return (
         <div> 
+            <h2 className='text-4xl font-bold m-5 text-center'>Students Marks Chart</h2>
                 <BarChart
                     width={1200}
                     height={500}

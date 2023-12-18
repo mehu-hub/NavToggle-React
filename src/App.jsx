@@ -1,5 +1,6 @@
 import Dashboard from "./Components/Dashboard/Dashboard"
 import Navbar from "./Components/Navbar/Navbar"
+import PhoneBar from "./Components/PhoneBar/PhoneBar"
 import PriceList from "./Components/PriceList/PriceList"
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar /> 
       <PriceList />
       <Dashboard/>
+      <PhoneBar/>
     </div>
   )
 }
